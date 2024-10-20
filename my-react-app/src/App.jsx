@@ -5,6 +5,7 @@ import Card from "./Card.jsx"
 import Player from "./Player.jsx"
 import UserGreeting from "./UserGreeting.jsx"
 import List from "./List.jsx"
+import Button from "./Button.jsx"
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
       <>
           <Card/>
           <UserGreeting isLoggedIn={true} username="TheShy"/>
-          <List/>
+          <Button/>
       </>
     );
 }
